@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MCQ-Radio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/customjs.js"></script>
+</head>
+<body>
+	<div class="mainContainer">
+		<div class="QuestionContainer">
+			<!------------- Question No 1-------- -->
+			<div class="Question">
+				<label>Q.No.1</label><br>
+				<img src="img/chair.jpg" alt="img" class="Questionimg"><br>
+				<label>Select Answer</label><br>
+				<input type="radio" class="radio" id="radio1" name="radio1" value="1"/><label>1</label><br>
+         		<input type="radio" class="radio" id="radio2" name="radio1" value="2"/><label>2</label><br>
+         		<input type="radio" class="radio" id="radio3" name="radio1" value="3"/><label>3</label><br>
+         		<input type="radio" class="radio" id="radio4" name="radio1" value="4"/><label>4</label><br>
+         		<input type="radio" class="radio" id="radio5" name="radio1" value="5"/><label>5</label><br>
+         		<input type="radio" class="radio" id="radio6" name="radio1" value="6"/><label>6</label><br>
+         		<input type="radio" class="radio" id="radio7" name="radio1" value="7"/><label>7</label><br>
+         		<input type="radio" class="radio" id="radio8" name="radio1" value="8"/><label>8</label><br>
+         		<input type="radio" class="radio" id="radio9" name="radio1" value="9"/><label>9</label>
+			</div>
+			<!----------------- Question No.1 End------- -->
+			<!------------- Question No 2-------- -->
+			<div class="Question">
+				<label>Q.No.2</label><br>
+				<img src="img/pencil.jpg" alt="img" class="Questionimg"><br>
+				<label>Select Answer</label><br>
+				<input type="radio" class="radio" id="radio1" name="radio2"value="1"/><label>1</label><br>
+         		<input type="radio" class="radio" id="radio2" name="radio2" value="2"/><label>2</label><br>
+         		<input type="radio" class="radio" id="radio3" name="radio2" value="3"/><label>3</label><br>
+         		<input type="radio" class="radio" id="radio4" name="radio2" value="4"/><label>4</label><br>
+         		<input type="radio" class="radio" id="radio5" name="radio2" value="5"/><label>5</label><br>
+         		<input type="radio" class="radio" id="radio6" name="radio2" value="6"/><label>6</label><br>
+         		<input type="radio" class="radio" id="radio7" name="radio2" value="7"/><label>7</label><br>
+         		<input type="radio" class="radio" id="radio8" name="radio2" value="8"/><label>8</label><br>
+         		<input type="radio" class="radio" id="radio9" name="radio2" value="9"/><label>9</label>
+			</div>
+			<!----------------- Question No.2 End------- -->
+			<!------------- Question No 3-------- -->
+			<div class="Question">
+				<label>Q.No.3</label><br>
+				<img src="img/pen.jpg" alt="img" class="Questionimg"><br>
+				<label>Select Answer</label><br>
+				<input type="radio" class="radio" id="radio1" name="radio3"value="1"/><label>1</label><br>
+         		<input type="radio" class="radio" id="radio2" name="radio3" value="2"/><label>2</label><br>
+         		<input type="radio" class="radio" id="radio3" name="radio3" value="3"/><label>3</label><br>
+         		<input type="radio" class="radio" id="radio4" name="radio3" value="4"/><label>4</label><br>
+         		<input type="radio" class="radio" id="radio5" name="radio3" value="5"/><label>5</label><br>
+         		<input type="radio" class="radio" id="radio6" name="radio3" value="6"/><label>6</label><br>
+         		<input type="radio" class="radio" id="radio7" name="radio3" value="7"/><label>7</label><br>
+         		<input type="radio" class="radio" id="radio8" name="radio3" value="8"/><label>8</label><br>
+         		<input type="radio" class="radio" id="radio9" name="radio3" value="9"/><label>9</label>
+			</div>
+			<!----------------- Question No.3 End------- -->
+			<!------------- Question No 1-------- -->
+			<div class="Question">
+				<label>Q.No.4</label><br>
+				<img src="img/table.jpg" alt="img" class="Questionimg"><br>
+				<label>Select Answer</label><br>
+				<input type="radio" class="radio" id="radio1" name="radio4" value="1"/><label>1</label><br>
+         		<input type="radio" class="radio" id="radio2" name="radio4" value="2"/><label>2</label><br>
+         		<input type="radio" class="radio" id="radio3" name="radio4" value="3"/><label>3</label><br>
+         		<input type="radio" class="radio" id="radio4" name="radio4" value="4"/><label>4</label><br>
+         		<input type="radio" class="radio" id="radio5" name="radio4" value="5"/><label>5</label><br>
+         		<input type="radio" class="radio" id="radio6" name="radio4" value="6"/><label>6</label><br>
+         		<input type="radio" class="radio" id="radio7" name="radio4" value="7"/><label>7</label><br>
+         		<input type="radio" class="radio" id="radio8" name="radio4" value="8"/><label>8</label><br>
+         		<input type="radio" class="radio" id="radio9" name="radio4" value="9"/><label>9</label>
+			</div>
+			<!----------------- Question No.4 End------- -->
+
+			<!-- Button  Submit And Reset Section -->
+			<div class="buttonSection">
+				<button disabled="true" class="button" id="submit">Submit</button>
+				<button disabled="true" class="button" id="reset">Reset</button>
+				<button disabled="true" class="button nextButton" id="next">Next</button>
+			</div>
+			<!-- END Button  Submit And Reset Section -->
+		</div>
+		<!-- End QuestionContainer -->
+	</div>
+	<!-- End MAinContainer -->
+
+<!-- Modal section -->
+	<!-- Success Modal -->
+		<div class="bg-background" id="modal-succes">
+			<div class="bg-content">
+				<img src="img/close.png" class="close" /><br>
+				<img src="img/tikmark.png" class="tikmark"/><span class="caption">That's <b>Correct</b></span>
+			</div>
+		</div>
+	<!-- End Success Modal -->
+
+	<!-- Error Modal -->
+	<div class="bg-background" id="modal-error">
+			<div class="bg-content">
+				<img src="img/close.png" class="close" /><br>
+				<img src="img/cross.jpg" class="cross"/><span class="caption">That's <b>Incorrect</b></span>
+			</div>
+		</div>
+	<!-- End Error Modal -->
+
+	<!-- Submit Modal -->
+	<div class="bg-background" id="modal-submit">
+			<div class="bg-content">
+				<img src="img/close.png" class="close" /><br>
+				<img src="img/cross.jpg" class="cross"/><span class="caption">Select all <b>Answer</b></span>
+			</div>
+		</div>
+	<!-- End Submit Modal -->
+
+
+<!-- End Modal Section -->
+
+</body>
+</html>
